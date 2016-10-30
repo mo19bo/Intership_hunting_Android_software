@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@drawable/edit_style"
+        android:ems="10"
+        android:hint="你想对实习僧说...."
+        android:inputType="textMultiLine"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/font_color_title"
+            android:text="发送"
+            android:textColor="@drawable/font_color_actionbar" />
+
+    </LinearLayout>
+
+</LinearLayout>

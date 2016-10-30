@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tip_com_logo_url"
+            android:textColor="@drawable/font_color1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/gowebsite"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/radius_button"
+            android:text="去网站填写"
+            android:textColor="@drawable/font_color_actionbar"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/stayhere"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:background="@drawable/radius_button_red"
+            android:text="留在这里~~"
+            android:textColor="@drawable/font_color_actionbar"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

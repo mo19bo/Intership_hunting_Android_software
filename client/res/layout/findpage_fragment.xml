@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:measureAllChildren="false"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layoutMode="clipBounds"
+        android:orientation="vertical" >
+
+        <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/font_color_actionbar" >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="经验谈"
+            android:textColor="@drawable/font_color1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="好文推"
+            android:textColor="@drawable/font_color1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Interview2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="技巧论"
+            android:textColor="@drawable/font_color1"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:id="@+id/Failed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="八卦粥"
+            android:textColor="@drawable/font_color1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+            <ImageView
+                android:id="@+id/cursor2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:background="@drawable/nav_bar_focus"
+                android:contentDescription="@string/app_name"
+                android:gravity="left"
+                android:src="@drawable/font_color_title" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage_notification2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+             </LinearLayout>
+ </LinearLayout>
+
+</FrameLayout>

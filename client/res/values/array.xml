@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="array_jobfirst">
+        <item>IT/互联网/通信/电子</item>
+        <item>人事/行政/管理/外语</item>
+        <item>金融/教育/法务/咨询</item>
+        <item>市场/销售/商务/公关</item>
+        <item>广告/媒体/艺术/编辑</item>
+        <item>房产/建筑/土木/物流</item>
+        <item>机械/重工/电气/材料</item>
+        <item>NGO/环保/公益</item>
+        <item>生物/医疗/餐饮/体育</item>
+        <item>产品/设计/运营/策划</item>
+    </string-array>
+    <string-array name="array_sub_1">
+        <item>软件</item>
+        <item>硬件</item>
+        <item>通信</item>
+        <item>电子</item>
+    </string-array>
+    <string-array name="array_sub_2">
+        <item>人事</item>
+        <item>行政</item>
+        <item>管理</item>
+        <item>外语</item>
+    </string-array>
+    <string-array name="array_sub_3">
+        <item>投资</item>
+        <item>财会</item>
+        <item>银行</item>
+        <item>法务</item>
+        <item>咨询</item>
+        <item>金融</item>
+        <item>教育</item>
+    </string-array>
+    <string-array name="array_sub_4">
+        <item>市场</item>
+        <item>商务</item>
+        <item>营销</item>
+        <item>公关</item>
+        <item>客服</item>
+    </string-array>
+    <string-array name="array_sub_5">
+        <item>广告</item>
+        <item>媒体</item>
+        <item>艺术</item>
+        <item>编辑</item>
+    </string-array>
+    <string-array name="array_sub_6">
+        <item>房产</item>
+        <item>建筑</item>
+        <item>物流</item>
+        <item>土木</item>
+    </string-array>
+    <string-array name="array_sub_7">
+        <item>机械</item>
+        <item>电气</item>
+        <item>材料</item>
+    </string-array>
+    <string-array name="array_sub_8">
+        <item>NGO</item>
+        <item>环保</item>
+    </string-array>
+    <string-array name="array_sub_9">
+        <item>医药</item>
+        <item>生物</item>
+        <item>餐饮</item>
+        <item>体育</item>
+    </string-array>
+    <string-array name="array_sub_10">
+        <item>产品</item>
+        <item>设计</item>
+        <item>运营</item>
+        <item>策划 </item>
+    </string-array>
+    <string-array name="array_third_1_1">
+        <item>C/C++</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>C#/.NET</item>
+        <item>Android</item>
+        <item>IOS</item>
+        <item>Hadoop</item>
+        <item>Python/Ruby/Perl/Node.js</item>
+        <item>前端</item>
+        <item>测试</item>
+        <item>数据挖掘</item>
+        <item>SEO</item>
+    </string-array>
+    <string-array name="array_third_1_2">
+        <item>嵌入式</item>
+        <item>集成电路</item>
+        <item>通信</item>
+    </string-array>
+    <string-array name="array_third_1_3">
+        <item>通信</item>
+    </string-array>
+    <string-array name="array_third_1_4">
+        <item>电子</item>
+    </string-array>
+    <string-array name="array_third_2_1">
+        <item>人事助理</item>
+    </string-array>
+    <string-array name="array_third_2_2">
+        <item>行政助理</item>
+        <item>前台实习生</item>
+    </string-array>
+    <string-array name="array_third_2_3">
+        <item>项目助理</item>
+    </string-array>
+    <string-array name="array_third_2_4">
+        <item>英语</item>
+        <item>韩语</item>
+    </string-array>
+    <string-array name="array_third_3_1">
+        <item>投资顾问</item>
+        <item>项目助理</item>
+    </string-array>
+    <string-array name="array_third_3_2">
+        <item>财务</item>
+        <item>审计</item>
+        <item>助理会计师</item>
+        <item>助理税务师</item>
+        <item>风控</item>
+    </string-array>
+    <string-array name="array_third_3_3">
+        <item> 客户经理</item>
+        <item>大堂经理</item>
+        <item>部门助理</item>
+    </string-array>
+    <string-array name="array_third_3_4">
+        <item>法务助理</item>
+        <item>律师</item>
+    </string-array>
+    <string-array name="array_third_3_5">
+        <item>咨询</item>
+    </string-array>
+    <string-array name="array_third_3_6">
+        <item>金融</item>
+    </string-array>
+    <string-array name="array_third_3_7">
+        <item>教育</item>
+    </string-array>
+    <string-array name="array_third_4_1">
+        <item>活动策划</item>
+        <item>文案策划</item>
+        <item>渠道</item>
+        <item>数据分析</item>
+    </string-array>
+    <string-array name="array_third_4_2">
+        <item>商务</item>
+    </string-array>
+    <string-array name="array_third_4_3">
+        <item> 销售</item>
+        <item> 推广</item>
+    </string-array>
+    <string-array name="array_third_4_4">
+        <item>公关</item>
+    </string-array>
+    <string-array name="array_third_4_5">
+        <item>客户代表</item>
+    </string-array>
+    <string-array name="array_third_5_1">
+        <item>推广</item>
+        <item>活动策划</item>
+        <item> 文案策划</item>
+    </string-array>
+    <string-array name="array_third_5_2">
+        <item>工业设计</item>
+        <item>摄影</item>
+        <item>美术设计</item>
+    </string-array>
+    <string-array name="array_third_5_3">
+        <item>编导</item>
+        <item>记者</item>
+        <item>新闻采编</item>
+        <item>主持</item>
+        <item>影视编辑</item>
+    </string-array>
+    <string-array name="array_third_5_4">
+        <item>编辑</item>
+    </string-array>
+    <string-array name="array_third_6_1">
+        <item>房地产销售</item>
+        <item>房地产策划</item>
+    </string-array>
+    <string-array name="array_third_6_2">
+        <item>助理设计师</item>
+        <item> 助理规划师 </item>
+        <item> CAD绘图</item>
+        <item>  助理工程师</item>
+    </string-array>
+    <string-array name="array_third_6_3">
+        <item>供应链</item>
+        <item>采购</item>
+    </string-array>
+    <string-array name="array_third_6_4">
+        <item>土木</item>
+    </string-array>
+    <string-array name="array_third_7_1">
+        <item>机械工程师</item>
+        <item>测试工程师</item>
+        <item>制造工程师</item>
+    </string-array>
+    <string-array name="array_third_7_2">
+        <item>电气工程师</item>
+    </string-array>
+    <string-array name="array_third_7_3">
+        <item>材料</item>
+    </string-array>
+    <string-array name="array_third_8_1">
+        <item>志愿者</item>
+    </string-array>
+    <string-array name="array_third_8_2">
+        <item>环保</item>
+    </string-array>
+    <string-array name="array_third_9_1">
+        <item>药品研发</item>
+    </string-array>
+    <string-array name="array_third_9_2">
+        <item>体育</item>
+    </string-array>
+    <string-array name="array_third_9_3">
+        <item>生物</item>
+    </string-array>
+    <string-array name="array_third_9_4">
+        <item>快消</item>
+    </string-array>
+    <string-array name="array_third_10_1">
+        <item>产品助理 </item>
+        <item> 产品设计</item>
+    </string-array>
+    <string-array name="array_third_10_2">
+        <item>UI</item>
+        <item> 特效设计</item>
+        <item> 平面设计</item>
+        <item> 交互</item>
+        <item> Flash设计</item>
+        <item> 视觉</item>
+    </string-array>
+    <string-array name="array_third_10_3">
+        <item>新媒体运营 </item>
+        <item>产品运营</item>
+    </string-array>
+    <string-array name="array_third_10_4">
+        <item>游戏策划 </item>
+        <item>活动策划 </item>
+        <item>文案策划 </item>
+    </string-array>
+
+</resources>

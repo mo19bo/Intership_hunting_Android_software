@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="com_logo_url">
+         "http://www.shixiseng.com/upload/company_logo/"
+         </string>
+         <string name="tip_com_logo_url">
+                        \t\t小伙伴还可以去网站填写更多经历（自我描述，掌握技能,作品展示等）哦~~"
+         </string>
+</resources>

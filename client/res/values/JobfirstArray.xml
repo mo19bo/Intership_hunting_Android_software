@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="array_jobfirst">
+        
+        <item>所有行业</item>  
+    <item>IT/互联网/通信/电子</item>  
+    <item>人事/行政/管理/外语</item>  
+    <item>金融/教育/法务/咨询</item> 
+        
+    <item>市场/销售/商务/公关</item>  
+    <item>广告/媒体/艺术/编辑</item>  
+    <item>房产/建筑/土木/物流</item> 
+    <item>机械/重工/电气/材料</item>  
+    <item>人事/行政/管理/外语</item>  
+    <item>NGO/环保/公益</item> 
+    <item>生物/医疗/餐饮/体育</item>  
+    <item>人事/行政/管理/外语</item>  
+    <item>产品/设计/运营/策划</item> 
+    </string-array>
+    
+</resources>

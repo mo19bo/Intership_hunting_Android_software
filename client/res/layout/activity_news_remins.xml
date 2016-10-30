@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_grey"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/font_color1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/font_color_actionbar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.41"
+            android:paddingLeft="10dp"
+            android:text="投递记录"
+            android:textColor="@drawable/font_color1"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+   <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/font_color1" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" 
+          android:background="@drawable/font_color_actionbar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.69"
+            android:paddingLeft="10dp"
+            android:text="新机会提醒"
+            android:textColor="@drawable/font_color1"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+    </LinearLayout>
+   <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/font_color1" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp" 
+          android:background="@drawable/font_color_actionbar"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:paddingLeft="10dp"
+            android:text="夜间免打扰模式"
+            android:textColor="@drawable/font_color1"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ToggleButton" />
+    </LinearLayout>
+<View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/font_color1" />
+</LinearLayout>

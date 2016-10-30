@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}"  >
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/font_color_title"
+         android:paddingBottom="5dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:paddingTop="5dp"
+         android:text="日薪（元）"
+         android:textColor="@drawable/black"
+         android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/listView_earings"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linerlayout_img"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_weight="0.37"
+                android:background="@drawable/minbg"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/avator"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/avator" />
+
+                <TextView
+                    android:id="@+id/Usertitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="暂无姓名"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/slice_brief"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="还未填写毕业院校"
+                    android:textColor="@drawable/font_color1"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="40dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/deliveryrecord" />
+
+                    <Button
+                        android:id="@+id/deliveryrecord"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="投递记录"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/fill_resume" />
+
+                    <Button
+                        android:id="@+id/fill_resume"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/bg_null"
+                        android:gravity="center_vertical"
+                          android:paddingLeft="15dp"
+                        android:text="修改简历" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/favorjob" />
+
+                    <Button
+                        android:id="@+id/favorite_jobs"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="收藏职位" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/ImageView02"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/favorcom" />
+
+                    <Button
+                        android:id="@+id/favorite_company"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_null"
+                          android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                        android:text="收藏公司" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/set" />
+
+                    <Button
+                        android:id="@+id/setttings"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="系统设置" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/cell"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <ImageView
+                        android:id="@+id/ImageView03"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/subcription" />
+
+                    <Button
+                        android:id="@+id/subcription"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_null"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="职位订阅" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

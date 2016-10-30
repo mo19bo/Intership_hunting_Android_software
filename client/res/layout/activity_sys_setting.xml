@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_grey"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+                   android:orientation="vertical" 
+                 >
+
+                   <Button
+                       android:id="@+id/news_notification"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:background="@drawable/font_color_actionbar"
+                       android:gravity="center_vertical"
+                       android:paddingLeft="10dp"
+                       android:text="新消息提醒"
+                       android:textColor="@drawable/font_color1" />
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+                   <Button
+                       android:id="@+id/no_borther"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:background="@drawable/font_color_actionbar"
+                       android:gravity="center_vertical"
+                       android:paddingLeft="10dp"
+                       android:text="勿扰模式"
+                       android:textColor="@drawable/font_color1" />
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+                   <Button
+                       android:id="@+id/account_setting"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:background="@drawable/font_color_actionbar"
+                       android:gravity="center_vertical"
+                       android:paddingLeft="10dp"
+                       android:text="账号设置"
+                       android:textColor="@drawable/font_color1" />
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+                   android:orientation="vertical" >
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+                   <Button
+                       android:id="@+id/about"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:background="@drawable/font_color_actionbar"
+                       android:gravity="center_vertical"
+                       android:paddingLeft="10dp"
+                       android:text="关于实习虾"
+                       android:textColor="@drawable/font_color1" />
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+                   <Button
+                       android:id="@+id/check_update"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:background="@drawable/font_color_actionbar"
+                       android:gravity="center_vertical"
+                       android:paddingLeft="10dp"
+                       android:text="检查新版本"
+                       android:textColor="@drawable/font_color1" />
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+                   android:orientation="vertical" >
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+                   <Button
+                       android:id="@+id/log_out"
+                       android:layout_width="match_parent"
+                       android:layout_height="60dp"
+                       android:background="@drawable/font_color_actionbar"
+                       android:gravity="center_vertical"
+                       android:paddingLeft="10dp"
+                       android:text="退出当前账号"
+                       android:textColor="@drawable/font_color1" />
+
+                   <View
+                       android:layout_width="fill_parent"
+                       android:layout_height="1px"
+                       android:background="@drawable/font_color1" />
+
+               </LinearLayout>
+
+</LinearLayout>

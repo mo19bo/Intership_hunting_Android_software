@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="#EEEEEE" >
+
+            <TextView
+                android:id="@+id/All2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="全部"
+                android:textColor="@drawable/font_color1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Looked2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="被查看"
+                android:textColor="@drawable/font_color1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Interview2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="通知面试"
+                android:textColor="@drawable/font_color1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Noproper2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="不合适"
+                android:textColor="@drawable/font_color1"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cursor2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/nav_bar_focus"
+            android:contentDescription="@string/app_name"
+            android:gravity="left"
+            android:src="@drawable/nav_bar_focus" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpage_notification2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

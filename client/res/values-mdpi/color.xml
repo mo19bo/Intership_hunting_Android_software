@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="grey">#fafafa</drawable>
+     <drawable name="action_color">#00a9e0</drawable>
+      <drawable name="fliter_selected">#00aae0</drawable>
+       <drawable name="fliter_not_selected">#7c7c7c</drawable>
+        <drawable name="font_color1">#666666</drawable>
+         <drawable name="font_color_title">#00a8df</drawable>
+         <drawable name="font_color_grey">#999999</drawable>
+          <drawable name="font_color_red">#fc5658</drawable>
+          <drawable name="fliter_title">#defbff</drawable>
+          <drawable name="font_color_actionbar">#ffffff</drawable>
+          <drawable name="font_tag_color">#feab41</drawable>
+          <drawable name="font_bg">#d8f4ff</drawable>
+         <drawable name="bg_grey">#f0f0f0</drawable>
+      <drawable name="black">#000000</drawable>
+</resources>
