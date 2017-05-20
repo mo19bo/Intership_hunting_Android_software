@@ -1,11 +1,11 @@
 # Internship_hunting_Android_software
 This software builds on C/S architecture. Software is Android applications. This software is aimed at help user finding internships, and contain issuing internship information, push featured essay about job hunting, tracking progress of recruitment and personal information and resume management.
 ### Software Development Environment
-Development tools: MyEclipse 13
-Programming languages: Java (Client) + PHP (server) 
-Operation platform: Android
-Database: MySQL
-### Main modules:
+Development tools: MyEclipse 13  
+Programming languages: Java (Client) + PHP (server)   
+Operation platform: Android  
+Database: MySQL  
+### Main modules:  
 * **Chance**：  
 The main function of this module is issuing information about internship.  
 Support query operation. (including fuzzy search, exact search, searching by tag)  
